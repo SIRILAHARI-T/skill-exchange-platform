@@ -43,3 +43,11 @@ skill-exchange-platform/
 - View Requests
 - Profile Management
 - RESTful API integration between frontend & backend
+
+  ## 🎥 Project Demo
+
+Watch the full project demo here:
+
+🔗 Click below to watch the demo
+https://drive.google.com/file/d/19MRFnB3IHtXThln2p8dBR2HJq53AfURq/view?usp=sharing
+
