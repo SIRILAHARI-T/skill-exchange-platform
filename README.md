@@ -48,6 +48,16 @@ skill-exchange-platform/
 
 Watch the full project demo here:
 
+## 🎥 Live Demo Walkthrough
+
+This video demonstrates:
+
+- User Registration & Login
+- Adding Skills
+- Discovering Skills
+- Sending Skill Requests
+- Viewing Request Status
+  
 🔗 Click below to watch the demo
 https://drive.google.com/file/d/19MRFnB3IHtXThln2p8dBR2HJq53AfURq/view?usp=sharing
 
