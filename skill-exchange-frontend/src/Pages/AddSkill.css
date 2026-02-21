@@ -1,0 +1,71 @@
+/* AddSkill.css */
+
+.add-skill-card {
+  max-width: 550px;
+  margin: 40px auto; /* center with some top spacing */
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  font-family: sans-serif;
+}
+
+.add-skill-card h2 {
+  margin-bottom: 20px;
+  color: #111827;
+  text-align: center;
+}
+
+.add-skill-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px; /* slightly bigger spacing */
+}
+
+.add-skill-form label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.add-skill-form input,
+.add-skill-form textarea,
+.add-skill-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.add-skill-form textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.add-skill-form button {
+  background: #16a34a;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.add-skill-form button:hover {
+  background: #15803d;
+}
+
+.success {
+  color: green;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-weight: 500;
+  margin-bottom: 12px;
+  text-align: center;
+}

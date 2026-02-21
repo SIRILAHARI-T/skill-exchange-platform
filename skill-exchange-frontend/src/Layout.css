@@ -1,0 +1,98 @@
+/* Layout.css */
+
+/* Main container */
+.layout {
+  display: flex;
+  height: 100vh; /* full viewport height */
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px; /* fixed sidebar width */
+  background: #1e293b; /* dark blue/gray */
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+/* Sidebar header / logo */
+.sidebar h2 {
+  margin: 0 0 20px 0;
+  font-size: 1.5rem;
+  color: #3b82f6; /* blue accent */
+  text-align: center;
+}
+
+/* Sidebar links */
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+/* Active link highlight */
+.nav-link.active {
+  background: #3b82f6;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  background: #334155;
+}
+
+/* Logout button styling */
+.logout-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  color: white;
+  transition: background 0.2s;
+}
+
+.logout-button:hover {
+  background: #334155;
+}
+
+/* Main content area */
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: #f1f5f9; /* light gray background for content */
+}
+
+/* Optional: feed cards inside content */
+.feed-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
