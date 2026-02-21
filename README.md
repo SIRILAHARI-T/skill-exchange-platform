@@ -22,6 +22,8 @@ A full-stack web application that allows users to share, request, and exchange s
 - VS Code
 - Git & GitHub
 
+### Database
+- Mysql
 ---
 
 ## 📂 Project Structure
